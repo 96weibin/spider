@@ -69,7 +69,7 @@ function sendReqest(url, headers) {     //发送请求的函数
                 })
             }
         })
-        // req.write()     //post 数据
+        // req.write()     //post 数据  只能write字符串  stringfy
         req.end()       //关闭连接
     })
 
