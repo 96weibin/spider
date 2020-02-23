@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/96weibin/spider/issues"
   },
-  "homepage": "https://github.com/96weibin/spider#readme"
+  "homepage": "https://github.com/96weibin/spider#readme",
+  "devDependencies": {
+    "jsdom": "^16.2.0"
+  }
 }
